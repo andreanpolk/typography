@@ -1,0 +1,74 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: blah;
+	src: url(../fonts/futura.ttc);
+
+}
+
+
+/* Container Items */
+
+
+
+
+
+html,body {
+	height: 100%;
+	width:100%;
+	
+}
+
+#cover {
+	width:100%;
+	height:100%;
+	background-color: rgb(180,140,74);
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+	position: absolute;
+	left: 200px;
+	top: 780px;
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+ font-family: blah;
+ font-size: 30px;
+ color: #6699FF;
+ letter-spacing: .3em;
+ text-align: center;
+ position: absolute;
+ left: 150px;
+ top: 25px;
+
+}
+
+.author {
+
+}
+
+
+.text {
+	font-family: blah;
+	width: 500px;
+	font-size: 15px;
+	color: #6699FF;
+	line-height: 2em;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	text-align: left;
+
+
+}
+
+.italic {
+	font-style:italic;
+}
